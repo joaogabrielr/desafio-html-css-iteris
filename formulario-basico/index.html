@@ -45,7 +45,31 @@
             </select></label>
 
         </fieldset>
-        <fieldset class="dados__profissionais"></fieldset>
+        <fieldset class="dados__profissionais">
+            <legend>Dados Profissionais</legend>
+            
+            <p>Natureza do Cargo</p>
+            <label for="gerencia"><input type="radio" name="cargo" id="gerencia"> Gerência</label>
+            <label for="financeiro"><input type="radio" name="cargo" id="financeiro"> Financeiro</label>
+            <label for="recepcao"><input type="radio" name="cargo" id="recepcao"> Recepção</label>
+            <label for="administracao"><input type="radio" name="cargo" id="administracao"> Administrativo</label>
+            <label for="juridico"><input type="radio" name="cargo" id="juridico"> Jurídico</label>
+
+            <p>Área de interesse</p>
+            <label for="computacao"><input type="checkbox" name="" id="computacao"> Computação</label>
+            <label for="biologia"><input type="checkbox" name="" id="biologia"> Biologia</label>
+            <label for="meio-ambiente"><input type="checkbox" name="" id="meio-ambiente"> Meio Ambiente</label>
+            <label for="engenharia"><input type="checkbox" name="" id="engenharia"> Engenharia</label>
+            <label for="historia"><input type="checkbox" name="" id="historia"> História</label>
+
+            <p>Mini-currículo</p>
+            <textarea name="" id="" cols="50" rows="3"></textarea>
+        </fieldset>
     </form>
+
+    <div class="btns">
+        <input type="submit" value="Enviar">
+        <input type="button" value="Limpar">
+    </div>
 </body>
 </html>
